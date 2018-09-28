@@ -10,6 +10,8 @@ public class EurekaRegistryDemo
 {
 	public static void main( String[] args )
 	{
+		System.out.println("++++++++++++++++++++++EurekaRegistryDemo Start+++++++++++++++++++++++++");
 		SpringApplication.run(EurekaRegistryDemo.class, args);
+		System.out.println("======================EurekaRegistryDemo Start is Done=========================");
 	}
 }
