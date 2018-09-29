@@ -21,6 +21,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.cloud.version>1.5.16.RELEASE</spring.cloud.version>
         <skipTest>true</skipTest>
+        <!--<springframework.version>4.3.19</springframework.version>-->
+        <spring.version>4.3.17.RELEASE</spring.version>
     </properties>
 
     <dependencies>
@@ -38,11 +40,6 @@
             <!--<version>${spring.cloud.version}</version>-->
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.44</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -64,9 +61,10 @@
         </dependency>
         <!--<dependency>-->
             <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>org.springframework.context</artifactId>-->
-            <!--<version>3.2.2.RELEASE</version>-->
+            <!--<artifactId>spring-web</artifactId>-->
+            <!--<version>5.0.5.RELEASE</version>-->
         <!--</dependency>-->
+
     </dependencies>
 
     <dependencyManagement>
